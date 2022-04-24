@@ -87,7 +87,7 @@ nav ul li:hover{
     border-radius: 10px;
     width: 350px;
     height: 320px;
-    bottom: -80px;
+    bottom: 210px;
     right: 30px;
 }
 .img-transparente{
@@ -155,4 +155,7 @@ a{
     font-size: 25px;
     margin:40px;
     color: var(--texto2);
+}
+section{
+    height: 100vh;
 }
