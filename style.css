@@ -64,6 +64,9 @@ nav ul li:hover{
 .icon p:hover{
     background: var(--organge);
 }
+section{
+    height: 100vh;
+}
 .section1{
     display: flex;
     margin: 0 70px;
@@ -144,18 +147,81 @@ a{
     flex-direction: column;
     align-items: center;
 }
-.section2 h1{
+.section2-card{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.section2-sobre-mi{
     font-family: 'Roboto', sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     color: var(--texto);
-    margin-bottom: 30px;
 }
-.section2 p{
+.card{
+    width: 300px;
+    height: 300px;
     font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    margin:40px;
-    color: var(--texto2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+    text-align: center;
 }
-section{
-    height: 100vh;
+.organge{
+    border: 1px solid var(--organge);
+}
+.card span{
+    font-size: 50px;
+    color: #e4531a;
+}
+.card h3{
+    color: whitesmoke;
+    font-size: 25px;
+}
+.card p{
+    font-size: 20px;
+    color: #aaa69f;
+}
+.section2-card .card:hover{
+    background: #e4531a;
+    box-shadow: 0 0 10px #e4531a, 0 0 40px #e4531a,0 0 80px #e4531a;
+}
+.section2-card .card:hover span{
+    color: #252422;
+}
+.section2-card .card:hover p{
+    color: whitesmoke;
+}
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section3-titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: var(--texto);
+}
+.section3-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 500px;
+}
+.section3-card .card{
+    width: 200px;
+    gap: 40px;
+}
+.section3-card .card p{
+    font-size: 15px;
 }
